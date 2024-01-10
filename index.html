@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<body>
+    <nav class="container-fluid mynavbar">
+        <div class="d-flex justify-content-between align-items-center container">
+            <div class="logo">
+                <img src="img/logo.png">
+                <div class="logo-text d-none" id="logo-text">
+                    <span>LOSANGELES</span>
+                    <span>MOUNTAINS</span>
+                </div>
+            </div>
+            <ul class="list-style-none">
+                <li>01. history</li>
+                <li>02. team</li>
+            </ul>
+        </div>
+    </nav>
+    <div class="hero">
+    </div>
+
+    <section class="section1 container-fluid">
+        <div class="container pt-5">
+            <h1 class="ml-5 section1_before">History</h1>
+            <p class="ml-4 mr-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin in ante viverra, rutrun
+                erat rutrum,
+                consectetur mi. Proin at maximus est. Nullam purus ex, iaculis sed erat sed, blandit tincidunt quam.
+                Cras
+                scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac, tristique ut quam.
+                Vivamus suscipit dignissim tortor nec congue.</p>
+        </div>
+
+    </section>
+    <section class="carousel">
+        <div class="container swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">Slide 1</div>
+                <div class="swiper-slide">Slide 2</div>
+                <div class="swiper-slide">Slide 3</div>
+                <div class="swiper-slide">Slide 4</div>
+
+                <div class="swiper-slide">Slide 5</div>
+                <div class="swiper-slide">Slide 6</div>
+                <div class="swiper-slide">Slide 7</div>
+                <div class="swiper-slide">Slide 8</div>
+
+                <div class="swiper-slide">Slide 9</div>
+                <div class="swiper-slide">Slide 10</div>
+                <div class="swiper-slide">Slide 11</div>
+                <div class="swiper-slide">Slide 12</div>
+
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+    <section class="section2">
+        <div class="section2-top container p-4">
+
+
+            <div class="d-inline-flex">
+                <div class="parent">
+                    <h1 class="d-inline-block section2_before pl-4">climb</h1>
+                </div>
+
+                <p class="d-inline-block">Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis
+                    hendrerit ac,
+                    tristique ut quam. Vivamus suscipit dignissim tortor nec congue.</p>
+            </div>
+
+
+        </div>
+        <div class="mountain-nav bg-navy">
+            <div class="container">
+                <div id="btn1" class="mybtn selected" onclick="select(1)">Mountain 1</div>
+                <div id="btn2" class="mybtn" onclick="select(2)">Mountain 2</div>
+            </div>
+
+        </div>
+        <div id="mountain1" class="mountain1">
+            <div class="container pt-5 ">
+                <div class="box mt-5">
+                    <h1>Schedule</h1>
+                    <table>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+        <div id="mountain2" class="mountain2 d-none">
+            <div class="container pt-5 ">
+                <div class="box mt-5">
+                    <h1>Schedule 2</h1>
+                    <table>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                        <tr>
+                            <td>25 nov 2016</td>
+                            <td>Vestivulum viverra</td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid bg-navy p-2">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="logo">
+                <img src="img/logo.png">
+            </div>
+            <div>
+                <p class="text-center">copyright 2016. all rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
